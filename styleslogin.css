@@ -1,0 +1,323 @@
+/* general */
+
+body, textarea {
+      font-family: "Calibri light", "sans-serif";
+	background-color: #232A31;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri light", "sans-serif";
+	background-image: url("img/MINIBANNER.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(700px - 96px);
+}
+
+.barranav-container{
+	width: 100%;
+	height: 90px;
+	background-color: #232A31;
+	padding: 0 2em;
+	position: relative;
+	box-sizing: border-box;
+}
+
+nav{
+    position: relative;
+}
+	
+.logo{
+	width: 70px;
+	height: 70px;
+	margin-top: 10px;
+	border-radius: 60%;
+}
+
+.menu{
+	list-style: none;
+	position: absolute;
+	display: inline-block;
+	height: 45px;
+	left: 80%;
+	width: 20%;
+    padding: 10px ;
+	text-align: center;
+	background-color: #232A31;
+}
+
+ .menu li{
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left:25px;
+	margin-right: 5px;
+	margin-top: 3px;
+}
+
+.menu li a{
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.70s;
+	color: aliceblue;
+	padding: 10px;
+	margin-left:5px;
+	margin-right: 5px;
+}
+	
+
+.menu li a:hover{
+	color: #7b59c9;
+	display: inline-block;
+	margin-left:5px;
+	margin-right: 5px;
+}
+
+.menu .default-btn:hover{
+	color: #dfdce6;
+}
+
+
+.default-btn{
+	color: #dfdce6;
+}
+		
+.default-btn:hover{
+	background-color: #7b59c9;
+	color: #dfdce6;
+}
+
+
+.conteiner-login{
+width: 40%;
+padding: 2em;
+height: 350px;
+position: relative;
+background-color: transparent ;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+border:solid 0.50px rgb(59, 68, 116);
+backdrop-filter: blur(10px);
+color: #201f20;
+font-size: 20px;
+top: 60px;
+text-align: center;
+}
+
+.im .imbgk{
+	width: 1000px;
+	height: 700px
+}
+
+	
+.inputs p{	
+	color: #f7f0f0f1;
+	font-size: 30px;
+	}
+
+.inputs{
+	margin: 5px;
+	display: block;
+	padding: 10px 1px;
+	width: 50%;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none ;
+	border-radius: 3px;
+	background-color:  #faf7ff44;
+	color: #f0e9e9f1;
+	font-size: 19px;
+	text-align: center;
+		}
+
+.conteiner-login label{
+	margin: 5px;
+	display: block;
+	padding: 0px 14px;
+	width: 50%;
+	height: 20px;
+	border: none ;
+	border-radius: 3px;
+	color: #f6f9fcd5;
+	font-size: 17px;
+	text-align: center;
+	}
+
+.enviar-contato{
+	margin:45px;
+	display: block;
+	padding: 10px 1px;
+	width: 50%;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none ;
+	border-radius: 3px;
+	background-color:  #6c39c4d0;
+	color: #f5f1f1f1;
+	font-size: 19px;
+	text-align: center;}
+
+.enviar-contato:hover{
+	margin:45px;
+	display: block;
+	padding: 10px 1px;
+	width: 50%;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none ;
+	border-radius: 3px;
+	background-color:  #b59ae444;
+	color: #ebe0e0f1;
+	font-size: 19px;
+	text-align: center;}
+
+form a{
+	text-align: center;
+	width: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e7e5eb;
+    padding: 20px;
+    text-decoration: none;
+}
+
+form a:hover{
+	text-align: center;
+	width: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgba(59, 68, 116, 0.918);
+	padding: 20px;
+	text-decoration: none;
+	transition: 0.50s;
+}
+
+	.container-rsocial h2{
+		text-align: center;
+		width: 50%;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	    font-size: 18px;
+	    font-family: "Calibri light";
+	}
+
+
+.contas {
+	width: 40%;
+	padding: 2em;
+	position: relative;
+	background-color: transparent ;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	border:solid 0.50px rgb(59, 68, 116);
+	backdrop-filter: blur(10px);
+	color: #201f20;
+	font-size: 20px;
+	top: 70px;
+	text-align: center;
+}
+
+.contas h2 {
+	color: #dfdce6;
+	font-size: 20px;
+}
+
+.contas a {
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e7e5eb;
+padding: 9px;
+text-decoration: none;
+}
+.contas .registrar {
+	text-align: center;
+	width: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e7e5eb;
+    padding: 17px;
+    text-decoration: none;
+	}
+	.contas .registrar:hover {
+	text-align: center;
+	width: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #4547a7b9;
+    padding: 17px;
+    text-decoration: none;
+	transition: 0.70s;
+		}
+
+.contas img {
+text-decoration: none;
+list-style: none;
+margin-left: auto;
+margin-right: auto;
+padding: 5px 15px;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 1em;
+	background-color: #232A31;
+	bottom: -130px;
+	position: relative;
+width: 100%;
+height: 150px;
+
+}
+
+footer h3{
+	font-family: "Calibri light";
+	text-align: center;
+	color: #cccad1;
+	border-width: light;
+	padding: 0px;
+}
+
+footer li{
+	text-align: center;
+	list-style: none;
+	display: inline;
+    margin: 10px;
+	left: -20px;
+	position: relative;
+}
+
+footer a{
+	text-decoration: none;
+	display: inline;
+	text-align: center;
+	color: #b9b7bd;
+	font-size: 20px;
+	margin-left:auto;
+	margin-right: auto;
+	left: -10px;
+	}
+
+footer a:hover{
+	text-decoration: none;
+	display: inline;
+	text-align: center;
+	color: #8c65daf8;
+	font-size: 20px;
+	transition: 0.70s;
+	}
